@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Final Project</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+        <script src="https://kit.fontawesome.com/02506d5fe2.js" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="jquery.flipster.min.css">
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+<body>
+    <section class="applynow-header">
+        <nav class="nav-bar">
+            <a href="https://www.southern.edu.my/ch/about/images/southern_logo.jpg"target="_blank"><img src="Images/Logo.png"id="suc"></a>
+            <div class="LogoName">
+                <span>SOUTHERN<br></span>
+                <span >UNIVERSITY COLLEGE</span>
+               <br>
+                <span>南方大学学院</span>
+                </div>           
+            <div class="nav-links" id="NavLinks">
+                <i class="fas fa-times" id="close" onclick="hideMenu()"></i>
+                    <ul>
+                        <li id="home"><a href="Homepage.html">HOME</a></li>
+                        <li><a href="Login.html">LOG IN</a></li>
+                        <li><a href="Course.html">COURSE</a></li>
+                        <li><a href="About.html">ABOUT</a></li>
+                        <li><a href="Contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <span id="Apply-Now"><a href="ApplyNow.html">APPLY NOW</a></span>
+                <i id="bars"class="fas fa-bars" onclick="showMenu()"></i>
+            </nav>
+        <h1 class="Top-ApplyNow">APPLY NOW</h1>
+    </section>
+    <br>
+
+    <!--Content-->
+    <section class="Form">
+        <div class="instruction">
+            <span>To begin the admission process, please fill up and submit an 
+             application form to Southern University College. Application form can be obtained from :</span>
+            <br><br>
+            <h4>Academic Affairs, Admission & Registration Office, Southern University College</h4>
+            <br>
+            <span>- OR -</span>
+            <br><br>
+            <h4>Download from the website links below :</h4>
+        </div>
+        <div class="applynow-col">
+                <div class="Form-Download">
+                    <a href="https://www.southern.edu.my/sra/form/Application%20Form.pdf"target="_blank">
+                        <i class="fas fa-cloud-download-alt fa-2x"></i>
+                        <p>Download Form <br>For Local & International <br>Students</p></a>
+                </div>
+
+                <div class="Form-Download" id="Form2">
+                    <a href="https://www.southern.edu.my/sra/"target="_blank">
+                        <i class="fas fa-check-circle fa-2x"></i>
+                    <p>Apply Online <br> For All Students</p></a>
+                </div>
+        </div>
+        <hr id="seperate1">
+    </section>
+
+    <section>
+        <h5 class="instruction-below">To avoid delays in the process, please ensure all information
+             required in the application is complete and correct. </h5>
+        <div class="content-below">
+            <div class="content-inside" id="malaysia-student">
+                <h3>Malaysia Students</h3>
+                <br>
+                <h4>Please include the following :</h4>
+                <br>
+                <ul>
+                    <li>1 recent passport sized photograph</li>
+                    <li>Your Mycard (IC)</li>
+                    <li>Certified true copy of school leaving/completion certificate</li>
+                    <li>Certified true copies of academic qualifications</li>
+                    <li>Enrolment Fee of RM500.00 (non-refundable)*</li>
+                    <li>Hostel Application Fee of RM500.00 (if required)</li>
+                    <li>Cucuriculum Certificate</li>
+                </ul>
+                <p class=italic> Please note that your application will not be processed if the <br>above 
+                    documents are not submitted.</p>
+            </div>
+            <div class="content-inside" id="internation-student">
+                <h3>International Students</h3>
+                <br>
+                <h4>Please include the following :</h4>
+                <br>
+                <span class="step">Step 1: Submit documents to verify entry eligibility to us :</span>
+                <ul>
+                    <li>1x Certified High School Result / College Result</li>
+                    <li>1x Certified School Leaving Certificate / Graduation Certificate</li>
+                    <li>1x IELTS Test Report Form</li>               
+                </ul>
+                <span class="step"> Step 2: After approved, Fill up Registration Form together<br> with the following additional documents;)</span>
+                
+                <ul>
+                    <li>Student Residence Application Form (If Application)</li>
+                    <li>1x Photocopy of passport (All pages including blank pages)</li>
+                    <li>10x Passport-size photograph with WHITE BACKGROUND (indicating your name and passport number at the back)</li> 
+                    <li>1x Pre-Medical Report (Obtainable from ISU)</li>
+                    <li>RM3500 Application and Registration Fees</li>              
+                </ul>
+                <span class="step"> Step 3: Once all registration procedures are approved, the student is required to make first year’s Tuition Fees and start his/ Her study.</span>
+                <p class="italic"> Please note that your application will not be processed if the<br> above 
+                    documents are not submitted.</p>
+            </div>
+        </div>
+    </section>
+     <!-- Footer -->
+     <footer class="page-footer unique-color-dark">
+        <h6 class="LOGO"><img src="Images/LOGO1.png"width="70px"
+        height="52px"> &nbsp;Southern University College<br><span class="Info">INFORMATION</span></h6>
+        <hr>
+    
+        <div class="row mt-3" id="footer">
+              <!-- /.First column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mb-4" id="column1">
+                <h6 class="About">    
+                    <strong>ABOUT</strong></h6>
+                <span class="About-Description">Southern College-established in 1990 as the first non-profit 
+                    institute of higher education in Malaysia. On August 10, 2012, it was officially approved 
+                    and upgraded to a university college.</span>
+                <span id="Read-More">&nbsp; <a href="About.html">Read More</a></span>
+                
+            </div>
+    
+            <!-- Second column -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-1" id="column2">
+    
+            <ul>
+                <li class="span-column2">
+                    <a href="https://www.southern.edu.my/about/history.html">Southern UC History</a>
+                </li>
+                <li class="span-column2">
+                    <a href="https://www.southern.edu.my/about/hgallery1.html">History Gallery</a>
+                </li>
+                <li class="span-column2">
+                    <a href="https://www.southern.edu.my/administration/president_office.html">President Office</a>
+                </li>
+                <li class="span-column2">
+                    <a href="https://www.southern.edu.my/about/organisation.html">Organization Chart</a>
+                </li>
+                <li class="span-column2">
+                    <a href="https://www.southern.edu.my/ago/en/main_building.html">Venue Rental</a>
+                </li>
+                <li class="span-column2">
+                    <a href="https://www.southern.edu.my/mag/">Museum & Art Gallery</a>
+                </li>
+            </ul>
+            </div>
+
+            <!-- Third column -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-1"id="column3">
+
+                <ul>
+                    <li class="span-column3">
+                        <a href="https://www.southern.edu.my/aaro/en/">Academic Affairs, Admission & Registration Office</a>
+                    </li>
+                    <li class="span-column3">
+                        <a href="https://www.southern.edu.my/sao/">Student Affairs Office</a>
+                    </li>
+                    <li class="span-column3">
+                        <a href="https://www.southern.edu.my/directory/index.php">Lecturer/Staff Directory</a>
+                    </li>
+                    <li class="span-column3">
+                        <a href="https://www.sc.edu.my/sra_application_form/online_application.php">Online Application</a>
+                    </li>
+                    <li class="span-column3">
+                        <a href="https://www.southern.edu.my/aaro/en/calendar.html">Calendar</a>
+                    </li>
+                </ul>
+                </div>
+
+              <!-- Fourth column -->
+              <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-1" id="column4">
+                <p class="Social" id="facebook">
+                    <a href="https://www.facebook.com/SouthernUniversityCollege/?fref=ts">
+                        <img src="Images/Facebook.png" width="35px"></a>
+                </p>
+                <p class="Social" id="youtube">
+                    <a href="https://www.youtube.com/channel/UCNIdplceP7rm8nCmYGyBETQ"><i class="fab fa-youtube fa-2x"></i></a>
+                </p>
+                <p class="Social" id="insta">
+                    <a href="https://www.instagram.com/southern_uc/">
+                        <img src="Images/Instagram.png" width="35px"></a>
+                </p>
+                <p class="Social" id="whatsapp">
+                    <a href="https://www.southern.edu.my/whatsapp.html">
+                        <img src="Images/WhatsApp.png" width="35px"></a>
+                </p>
+                <span id="Contact"><a href="#" style="color: rgb(143, 140, 140);">CONTACT US</a></span>
+            </div>
+        </div>
+        <span id="Policy">&nbsp; <a href="https://www.southern.edu.my/privacy_policy.html">Privacy Policy</a></span>
+        <div class="footer-copyright text-center py-3"id="Copyright">
+            © 2020 Southern University College. All Rights Reserved.</div>
+    </footer>
+
+
+        <!-- JQuery -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+         <!-- JQuery Filter -->
+         <script src="jquery.flipster.min.js"></script>
+        <!-- Bootstrap tooltips -->
+        <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+        <!-- Bootstrap core JavaScript -->
+        <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <!-- MDB core JavaScript -->
+        <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+        <script type="text/javascript" src="vanilla-tilt.js"></script>
+        <script src="main.js"></script>
+
+    </body>
+</html>
